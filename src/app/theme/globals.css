@@ -1,11 +1,12 @@
-@import 'tailwindcss';
+@import "tailwindcss/preflight";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 ul,
